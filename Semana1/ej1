@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  ><header>
+    <h1>Social Network</h1>
+    <p>
+        A social network is a digital platform that allows people to <br />
+        connect, communicate, and share content in real time. <br />
+        These networks have transformed the way we interact, <br />
+        creating virtual communities that transcend geographical boundaries. <br />
+        From personal use to commercial purposes.
+    </p>
+  </header>
+  <main>
+    <h2>Top 5 Social Networks</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Number of Users</th>
+                <th>Creation Date</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Facebook</td>
+                <td>3,070,000,000</td>
+                <td>February 2004</td>
+                <td><a href="https://www.facebook.com/">facebook.com</a></td>
+            </tr>
+            <tr>
+                <td>Whatsapp</td>
+                <td>3,000,000,000</td>
+                <td>January 2009</td>
+                <td><a href="https://www.whatsapp.com">whatsapp.com</a></td>
+            </tr>
+            <tr>
+                <td>Youtube</td>
+                <td>2,700,000,000</td>
+                <td>February 2005</td>
+                <td><a href="https://www.youtube.com/">youtube.com</a></td>
+            </tr>
+            <tr>
+                <td>Instagram</td>
+                <td>2,000,000,000</td>
+                <td>October 2010</td>
+                <td><a href="https://www.instagram.com/">instagram.com</a></td>
+            </tr>
+            <tr>
+                <td>TikTok</td>
+                <td>1,840,000,000</td>
+                <td>September 2016</td>
+                <td><a href="https://www.tiktok.com">tiktok.com</a></td>
+            </tr>
+        </tbody>
+    </table>
+    <footer>
+      <p>
+        Social networks have profoundly transformed the way we <br />
+        communicate and access information. Their impact is <br />
+        reflected in all social and commercial spheres.
+      </p>
+    </footer>
+
+    <section>
+      <h3>Bibliography</h3>
+      <ul>
+        <li><a href="https://explodingtopics.com/blog/top-social-media-platforms">Exploding Topics: Top Social Media Platforms</a></li>
+        <li><a href="https://es.wikipedia.org/wiki/Facebook">Wikipedia: Facebook</a></li>
+        <li><a href="https://es.wikipedia.org/wiki/WhatsApp">Wikipedia: WhatsApp</a></li>
+        <li><a href="https://es.wikipedia.org/wiki/YouTube">Wikipedia: YouTube</a></li>
+        <li><a href="https://es.wikipedia.org/wiki/Instagram">Wikipedia: Instagram</a></li>
+        <li><a href="https://es.wikipedia.org/wiki/TikTok">Wikipedia: TikTok</a></li>
+      </ul>
+    </section>
+  </main>
+</html>
