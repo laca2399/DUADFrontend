@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <form action="https://dummyjson.com/test" method="POST">
+
+    <div class="top-line"></div>
+
+    <h1>Contact us!</h1>
+    <p>Got something to say? Fire away!</p>
+
+    <label for="first_name">First name *</label>
+    <input type="text" id="first_name" name="firstName" />
+
+    <label for="last_name">Last name *</label>
+    <input type="text" id="last_name" name="lastName" />
+
+    <label for="email">Email address *</label>
+    <input type="text" id="email" name="email" />
+
+    <label for="type">What's your message about?</label>
+    <select name="type" id="type">
+      <option hidden>Select one</option>
+      <option value="question">Question</option>
+      <option value="suggestion">Suggestion</option>
+    </select>
+
+    <label for="message">Fire away!</label>
+    <textarea id="message" name="message"></textarea>
+
+    <input type="submit" value="Send my message" />
+
+  </form>
+
+</body>
+
+</html>
