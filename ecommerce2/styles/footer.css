@@ -1,0 +1,38 @@
+.footer{
+    background-color: #f5dede;
+    padding: 50px 0;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+
+/* FORM */
+
+.contact-form{
+    margin-top: 15px;
+
+    display: flex;
+    gap: 10px;
+}
+
+.contact-form input{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button{
+    background-color: #ff2c7a;
+    color: white;
+
+    border: none;
+    padding: 8px 16px;
+
+    border-radius: 4px;
+    cursor: pointer;
+}

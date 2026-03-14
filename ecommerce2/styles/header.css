@@ -1,0 +1,42 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* LEFT SIDE */
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+/* LOGO */
+
+.logo{
+    width: 50px;
+}
+
+/* LINKS */
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid black;
+}
+
+/* SEARCH BOX */
+
+.search-box{
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

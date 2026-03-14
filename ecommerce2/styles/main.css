@@ -1,0 +1,16 @@
+@import url(header.css);
+@import url(banner.css);
+@import url(catalog.css);
+@import url(footer.css);
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.contain{
+    padding: 0 10%;
+}

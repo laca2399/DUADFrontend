@@ -1,0 +1,40 @@
+.banner{
+    background-color: #f5dede;
+    padding: 60px 0;
+}
+
+.banner-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+/* TEXT */
+
+.banner-text{
+    width: 40%;
+}
+
+.banner-text h2{
+    color: #ff2c7a;
+}
+
+/* BUTTON */
+
+.buy-button{
+    background-color: #ff2c7a;
+    color: white;
+
+    border: none;
+    padding: 10px 20px;
+
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* IMAGE */
+
+.banner-image img{
+    width: 220px;
+}
