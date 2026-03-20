@@ -3,14 +3,21 @@
 @import url(catalog.css);
 @import url(footer.css);
 
+*{
+    box-sizing: border-box;
+}
+
 html{
     font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
     margin: 0;
+    background-color: #ffffff;
 }
 
-.contain{
-    padding: 0 10%;
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
 }

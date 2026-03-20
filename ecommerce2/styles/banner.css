@@ -1,11 +1,13 @@
 .banner{
+    margin: 20px;
+    border-radius: 10px;
     background-color: #f5dede;
-    padding: 60px 0;
+    padding: 40px 0;
 }
 
 .banner-content{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 40px;
 }
@@ -14,6 +16,10 @@
 
 .banner-text{
     width: 40%;
+}
+
+.banner-text h1{
+    margin: 0;
 }
 
 .banner-text h2{
