@@ -1,0 +1,57 @@
+.header{
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem;
+    background-color: white;
+}
+
+/* LEFT SIDE */
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+/* LOGO */
+
+.logo{
+    width: 50px;
+}
+
+/* LINKS */
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid black;
+}
+
+/* SEARCH */
+
+.search-form{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.search-form label{
+    display: none;
+}
+
+.search-form input{
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
