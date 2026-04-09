@@ -1,0 +1,41 @@
+<!--Crea un documento HTML con un botón que agregue elementos a una lista ordenada, 
+y otro que limpie todos los elementos de la lista. 
+Realizalo agregando el código JS dentro de un elemento script.-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dynamic List</title>
+</head>
+<body>
+
+    <h2>Ordered List</h2>
+
+    <button onclick="addItem()">Add item</button>
+    <button onclick="clearList()">Clear list</button>
+
+    <ol id="myList"></ol>
+
+    <script>
+        let counter = 1;
+
+        function addItem() {
+            let list = document.getElementById("myList");
+
+            let newItem = document.createElement("li");
+            newItem.textContent = "Item " + counter;
+
+            list.appendChild(newItem);
+
+            counter++;
+        }
+
+        function clearList() {
+            let list = document.getElementById("myList");
+            list.innerHTML = "";
+            counter = 1;
+        }
+    </script>
+
+</body>
+</html>

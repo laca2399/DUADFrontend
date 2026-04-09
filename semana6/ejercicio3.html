@@ -1,0 +1,43 @@
+<!--Crea un form con inputs de correo, contraseña, nombre y apellidos. 
+También debe tener un radio button para seleccionar si es empleado o no. 
+Al seleccionar “sí”, se debe mostrar un input extra para empleo. 
+Si se vuelve a seleccionar “no”, este input se debe esconder.-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Example</title>
+</head>
+<body>
+
+    <form>
+        <input type="text" placeholder="Name" id="name"><br><br>
+        <input type="text" placeholder="Last Name" id="lastname"><br><br>
+        <input type="email" placeholder="Email" id="email"><br><br>
+        <input type="password" placeholder="Password" id="password"><br><br>
+
+        <p>Are you employed?</p>
+
+        <input type="radio" name="employed" onclick="showJob()"> Yes
+        <input type="radio" name="employed" onclick="hideJob()"> No
+
+        <br><br>
+
+        <!-- Hidden input -->
+        <div id="jobDiv" style="display: none;">
+            <input type="text" placeholder="Job">
+        </div>
+    </form>
+
+    <script>
+        function showJob() {
+            document.getElementById("jobDiv").style.display = "block";
+        }
+
+        function hideJob() {
+            document.getElementById("jobDiv").style.display = "none";
+        }
+    </script>
+
+</body>
+</html>
