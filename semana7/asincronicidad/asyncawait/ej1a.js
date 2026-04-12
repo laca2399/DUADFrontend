@@ -6,7 +6,7 @@ async function getUser() {
     console.log("1. Sending request");
 
     try {
-        const response = await fetch("https://reqres.in/api/users/2");
+        const response = await fetch("https://jsonplaceholder.typicode.com/users/1");
         console.log("2. Response received");
 
         const user = await response.json();

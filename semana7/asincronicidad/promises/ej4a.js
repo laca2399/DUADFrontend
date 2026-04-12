@@ -1,5 +1,5 @@
 /*
-epita los ejercicios 1 y 2 de la sección de Async/Await resolviéndolos con las 
+repita los ejercicios 1 y 2 de la sección de Async/Await resolviéndolos con las 
 funciones .then(), .catch() y .finally() de ser requerido.
 
 EJ1: Realice un programa que utilice la función fetch para solicitar un usuario del API anterior (API de prueba https://reqres.in/) 
@@ -10,7 +10,7 @@ Al finalizar la solicitud, imprima los datos del usuario en pantalla.
 function getUser() {
     console.log("1. Sending request");
 
-    fetch("https://reqres.in/api/users/2")
+    fetch("https://jsonplaceholder.typicode.com/users/1")
         .then(function(response) {
             console.log("2. Response received");
             return response.json();

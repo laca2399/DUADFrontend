@@ -7,21 +7,18 @@ async function getUser() {
     console.log("1. Sending request");
 
     try {
-        const response = await fetch("https://reqres.in/api/users/23");
+        const response = await fetch("https://jsonplaceholder.typicode.com/users/999");
         console.log("2. Response received");
 
-        
-        if (!response.ok) {
+        const user = await response.json();
+
+        if (!user.id) {
             throw new Error("User not found");
         }
 
-        const data = await response.json();
-
-        const user = data.data;
-
         console.log("User data:");
         console.log("ID:", user.id);
-        console.log("Name:", user.first_name, user.last_name);
+        console.log("Name:", user.name);
         console.log("Email:", user.email);
 
     } catch (error) {
